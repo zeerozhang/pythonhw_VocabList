@@ -20,7 +20,7 @@
 生词本存放于 `./vocabulary` 路径下，含有带谷歌翻译（with_tran.txt）和不带翻译（no_trans.txt）两种。旧的生词本不会被新生成的生词本覆盖。
 
 ### 功能演示
-* **输入**：python3 solve.py TOFEL_listening.txt --r -n 50
-   **输出**：no_trans.txt，with_trans.txt，二者单词顺序对应，为在全部单词中随机抽选50行。
-* **输入**：python3 solve.py TOFEL_listening.txt -n 40 --r -s 10 -l 100
-   **输出**：no_trans_0.txt，with_trans_0.txt，二者单词顺序对应，为在10至110行单词中随机抽选40行。
+* **输入**：python3 solve.py TOFEL_listening.txt --r -n 50 
+    **输出**：no_trans.txt，with_trans.txt，二者单词顺序对应，为在全部单词中随机抽选50行。
+* **输入**：python3 solve.py TOFEL_listening.txt -n 40 --r -s 10 -l 100 
+    **输出**：no_trans_0.txt，with_trans_0.txt，二者单词顺序对应，为在10至110行单词中随机抽选40行。
